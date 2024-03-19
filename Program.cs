@@ -46,44 +46,5 @@ namespace LAB_1_CSharp
             double f3 = (t1 - Math.Pow(t2, 2)) / (1 + t3);
             Console.WriteLine($"f = {f3}");
         }
-
-        /*static double f1(double x, double y)
-        {
-            return Math.Sin(x) + Math.Cos(y);
-}
-        static void f2(double x, double y, ref double z)
-        {
-            z = Math.Sin(x) + Math.Cos(y);
-        }
-
-        static void f3(double x, double y, out double z)
-        {
-            z = Math.Sin(x) + Math.Cos(y);
-        }
-
-        static void Main(string[] args)
-        {
-            Console.Write("a = ");
-            double a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("b = ");
-            double b = Convert.ToDouble(Console.ReadLine());
-
-            double c1 = (f1(1, a) + f1(b, 2)) / (1 + f1(a, b));
-            Console.WriteLine("c = " + c1);
-
-            double r1 = 0, r2 = 0, r3 = 0;
-            f2(1, a, ref r1);
-            f2(b, 2, ref r2);
-            f2(a, b, ref r3);
-            double c2 = (r1 + r2) / (1 + r3);
-            Console.WriteLine("c = " + c2);
-
-            double t1, t2, t3;
-            f3(1, a, out t1);
-            f3(b, 2, out t2);
-            f3(a, b, out t3);
-            double c3 = (t1 + t2) / (1 + t3);
-            Console.WriteLine("c = " + c3);
-        }*/
     }
 }
